@@ -15,7 +15,7 @@ app.use(cors()); // Habilita CORS para todas as rotas
 app.use(express.json()); // Parse de JSON
 
 app.use("/animes", animesRouter); // Usar as rotas de animes
-app.use("/colecoes", collectionRouter); // Usar as rotas de coleções
+
 
 // Rota base para verificar se o servidor está rodando
 app.get("/", (req, res) => {
